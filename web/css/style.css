@@ -1,0 +1,51 @@
+form1 {
+    
+    border: 3px solid #f1f1f1;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+/* Full-width inputs */
+input{
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    alignment-adjust: auto;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+#login{
+    float: right;
+    width : 40%;
+}
+
+#signup{
+    padding-left: 250px;
+    float: left;
+    width: 40%;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
